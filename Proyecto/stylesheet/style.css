@@ -1,0 +1,235 @@
+
+.body{
+    background-image: url(/img/fondo.png);
+    background-size: cover;
+    
+}
+
+.title{
+    color: aqua;
+    font-size: 80px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.titlee{
+    background-color: rgba(169, 169, 169, 0.363);
+    width: 490px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+.dropdown{
+    position: relative;
+    text-align: center;
+}
+
+#bot1{
+    background-color: rgba(169, 169, 169, 0.6);
+    border-color: rgba(169, 169, 169, 0.9);;
+    color: aqua;
+    font-size: 23px;
+}
+
+#boton{
+    background-color: rgba(169, 169, 169, 0.6);
+    color: aqua;
+    font-size: 23px;
+    border-color: rgba(169, 169, 169, 0.9);;
+    text-align: center;
+}
+
+button.dropdown-item a{
+    text-decoration: none;
+    color: aqua;
+}
+#bot1:hover{
+    background-color: rgba(160, 26, 26, 0.37);;
+}
+.rec{
+    fill: rgba(169, 169, 169, 0.6);
+
+}
+#carouselExampleDark {
+    margin: 0PX 350PX 0PX 350PX;
+    font-family: 'Shantell Sans', cursive;
+} 
+
+.tex{
+    fill: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    
+
+}
+
+.divtex{
+    font-weight: bold;
+    text-align: center;
+}
+
+/*CALCULADORA*/
+.poscal{
+    min-height: 100vh;
+    place-items: center;
+    display: grid;
+}
+.calculadora{
+    background-color: #15173c;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+}
+
+.pantalla{
+    grid-column: 1/5;
+    background-color: #090c31;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+.botca{
+    background-color: #15173c;
+    color: white;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer; 
+}
+.botca:hover{
+    background-color: #090c31;
+    
+}
+#cero{
+    grid-column: span 2;
+
+}
+#igual{
+    grid-row: span 2;
+}
+#igual:hover{
+    background-color: rgb(98, 99, 100);
+}
+.p{
+    text-align: center;
+    color: aqua;
+    font-size: 23px;
+}
+
+/*Cuestionario suma*/
+@import url(`https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap`);
+
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.cont{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+section{
+    border: 3px solid #000000;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(169, 169, 169, 0.8);
+}
+label{
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 3px;
+}
+label:hover{
+    background-color: c;
+}
+.botcu{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    
+    background-color: rgba(169, 169, 169, 0.8);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: aqua;
+    font-size: 18px;
+}
+.botcu:hover{
+    background-color: rgba(85, 78, 78, 0.8);
+    
+}
+
+.h2{
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
+#resultado{
+    font-size: 30px;
+    color: aqua;
+    background-color: rgba(202, 156, 196, 0.8);
+}
+
+
+
+
+
+
+
+
+#p0{
+    color: aqua;
+    font-family: cursive;
+    
+}
+#p1{
+    color: aqua;
+    font-family: cursive;
+}
+#p2{
+    color: aqua;
+    font-family: cursive;
+}
+#p3{
+    color: aqua;
+    font-family: cursive;
+}
+#p4{
+    color: aqua;
+    font-family: cursive;
+}
+
+@media (max-width: 767px){
+
+}
+@media (min-width: 768px) and (max-width: 990px){
+    
+}
+@media (min-width: 767px){
+    
+}
+
+
+
+
+
